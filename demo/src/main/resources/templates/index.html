@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="icon" href="../css/icone.png">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <img src="../css/logo.png" alt="Logo da Biblioteca Online">
+        </div>
+    </header>
+    <main>
+        <form method="post" action="/login">
+            <section class="container">
+            <div class="item1"><h1>Entrar na Biblioteca Virtual</h1>
+            </div>    
+            <div class="item2">
+                <label class="label" for="username">Nome de Usuário:</label>
+                <input class="input" type="text" name = "username" placeholder="Digite seu nome de usuário" required>
+            </div>
+            <div class="item2">
+                <label class="label2" for="password">Senha:</label>
+                <input class="input" type="password" name="senha" placeholder="Digite sua senha" required>
+            </div>
+            <div>
+                <button class="botao" type="submit">Entrar</button>
+                <p class="paragrafo">Novo na Biblioteca Virtual? <a
+                        href="http://localhost:8080/cadastroUsuario">Cadastre-se</a>!</p>
+            </div>
+        </section>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright Biblioteca Virtual Senac-SC</p>
+    </footer>
+
+</body>
+
+</html>

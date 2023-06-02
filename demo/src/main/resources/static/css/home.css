@@ -1,0 +1,95 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #84a3b8, #abc1cf);
+
+}
+
+.botao-grande {
+  width: 300px;
+  height: 300px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 100px auto;
+  text-decoration: none;
+
+}
+
+.botao-grande:hover {
+  background-color: #2980b9;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  background: #708090;
+  padding: 20px 0;
+
+}
+
+.imagem {
+  width: 100% !important;
+}
+
+.imagem img {
+  height: 60px;
+  margin-left: 45%;
+}
+
+.entrada {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 85px;
+  text-align: center;
+  padding-top: 45px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-weight: 900;
+}
+
+.imagemLivro {
+  margin-top: 55px;
+  justify-content: center;
+  opacity: 0.20;
+  position: absolute;
+  margin-left: 385px;
+}
+
+.imagemLivro img {
+  height: 450px;
+  width: 750px;
+
+}
+
+
+.sair {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 5px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+
+}
+
+.sair:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,145 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	display: flex;
+	flex-direction: column;
+	background-color: #f1f1f1;
+}
+
+header {
+	background: #D2E4F5;
+	padding: 20px 0;
+}
+
+/* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item1 {
+	margin: 5%;
+	font-size: 25px;
+}
+
+.item2 {
+	margin-top: 11%;
+}
+
+.label {
+	font-size: 1.5em;
+	margin-left: 22%;
+	display: block;
+}
+
+.label2 {
+	font-size: 1.5em;
+	margin-left: 22%;
+	display: block;
+	margin-top: -5%;
+}
+
+.input {
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-top: 1%;
+	margin-left: 22%;
+	padding: 2%;
+	width: 55%;
+}
+
+
+.item {
+	margin: 10%;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+
+}
+
+.container {
+	max-width: 40%;
+	margin: 1.5% auto;
+
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
+
+.caixa {
+	width: 100% !important;
+}
+
+.caixa img {
+	height: 100px;
+	margin-left: 40%;
+}
+
+.botao {
+	background-color: #4CAF50;
+	/* Cor de fundo */
+	border: none;
+	/* Remover a borda */
+	color: white;
+	/* Cor do texto */
+	padding: 15px 32px;
+	/* Espaçamento interno */
+	text-align: center;
+	/* Alinhamento do texto */
+	text-decoration: none;
+	/* Remover sublinhado */
+	display: inline-block;
+	/* Exibir como um bloco */
+	font-size: 16px;
+	/* Tamanho da fonte */
+	margin: 4px 2px;
+	/* Margem externa */
+	cursor: pointer;
+	/* Alterar o cursor ao passar o mouse */
+	border-radius: 8px;
+	/* Arredondar as bordas */
+	margin-left: 40%;
+	margin-top: 6%;
+}
+
+.botao:hover {
+	background-color: #175bc2;
+}
+
+.paragrafo {
+	margin-top: 30px;
+	position: block;
+	margin-left: 16%;
+	font-size: 17px;
+}
+
+.paragrafo a {
+	text-decoration: none;
+}
+
+footer {
+	background-color: #D2E4F5;
+	padding: 15px;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
